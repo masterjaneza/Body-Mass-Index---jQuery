@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-self: center;
+            align-items: center;
+        }
+
+        form {
+            width: 500px;
+            height: 370px;
+            background-color: white;
+            box-shadow: 0 0 50px gray;
+            border-radius: 10px;
+
+            display: flex;
+            justify-self: center;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 80px;
+        }
+
+        label {
+            font-family: cursive;
+            font-size: 1.4em;
+        }
+
+        input {
+            width: 250px;
+            height: 20px;
+            border-radius: 30px;
+            border: 1px solid black;
+        }
+
+        input[type='submit'] {
+            border-radius: 100px;
+            width: 150px;
+            height: 40px;
+            border: none;
+            background-color: cadetblue;
+            color: white;
+            font-family: cursive;
+            font-size: 1.1em;
+
+        }
+ 
+        p {
+            font-family: cursive;
+            font-size: 1.2em;
+
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <form>
+        <label for="height">Height:</label>
+        <br>
+        <input type="text" id="height" class="heightVal">
+        <br>
+        <label for="weight">Weight:</label>
+        <br>
+        <input type="text" id="weight" class="weightVal">
+
+        <br>
+        <br>
+
+        <p>result: </p>
+
+        <br>
+        <br>
+        
+        <input type="submit" value="Submit" class="submit">
+
+    </form>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
